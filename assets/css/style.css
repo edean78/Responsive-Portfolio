@@ -193,3 +193,67 @@ input[type=submit] {
     float: left;
     width: 300px;
 }
+
+@media screen and (max-width:980px){
+
+}
+
+@media screen and (max-width:768px){
+    .header {
+        max-width: 740px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .header {
+        margin: auto 0;
+        position: static;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    .nav {
+        clear: both;
+        color: grey;
+        text-decoration: none;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    article {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    #bio-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .logo {
+        text-align:center;
+        padding: 20px 40px;
+        font-size: 28px;
+        width: 100%;
+        top: 0;
+    }
+    
+    header {
+        width: 100%;
+        position: static;
+    }
+    
+    footer {
+        position: static;
+    }
+
+    #pfooter{
+        clear: both;
+    }
+
+}
